@@ -1,0 +1,6 @@
+CREATE TABLE products (
+    id      SERIAL PRIMARY KEY NOT NULL,
+    isin    VARCHAR UNIQUE NOT NULL,
+    symbol  VARCHAR UNIQUE NOT NULL,
+    name    VARCHAR UNIQUE NOT NULL
+)
